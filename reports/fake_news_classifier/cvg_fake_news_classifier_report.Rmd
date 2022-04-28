@@ -1,0 +1,59 @@
+---
+title: "Fake News Classifer Modelling"
+date: "Ciencia de Datos para la Gestión de Información No Estructurada - MUCD"
+author: "Carlos Viñals Guitart (carlos.vinals@cunef.edu)"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+---
+```{css toc-content, echo = FALSE}
+#TOC {
+  left: 50px;
+  margin: 0px 0px 0px 0px;
+}
+
+.main-container {
+    margin-left: 300px;
+}
+
+.box {
+  padding: 10px 10px;
+  background-color: #E0E0E0;
+    border-radius: 5px;
+}
+```
+
+Version `r format(Sys.time(), '%d.%m.%y')`
+
+<p align="center">
+  <img width="750" src="fake_news_title_head.png">
+</p>
+<br/>
+
+Este trabajo englobra la creación de un modelo de detección de noticias falsas. Desde el propio análisis de los datos hasta la elección y desarrollo de un modelo final. Además, se incluye un desarrollo de un topic modelling adicional. 
+
+<br/>
+
+::: {.box}
+El trabajo realizado en este report puede encontrarse en detalle en el repositorio de github https://github.com/carviagu/fake_news_classifier_model
+:::
+
+```{r, echo=FALSE}
+htmltools::includeHTML("1.0-cvg-data-exploration.html")
+```
+
+```{r, echo=FALSE}
+htmltools::includeHTML("2.0-cvg-data-preprocessing.html")
+```
+
+
+```{r, echo=FALSE}
+htmltools::includeHTML("3.0-cvg-modelling.html")
+```
+
+
+```{r, echo=FALSE}
+htmltools::includeHTML("4.0-cvg-topic-modelling.html")
+```
+
