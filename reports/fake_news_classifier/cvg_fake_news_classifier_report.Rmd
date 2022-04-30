@@ -1,5 +1,5 @@
 ---
-title: "Fake News Classifer Modelling"
+title: "Fake News Classifier Modelling"
 date: "Ciencia de Datos para la Gestión de Información No Estructurada - MUCD"
 author: "Carlos Viñals Guitart (carlos.vinals@cunef.edu)"
 output:
@@ -31,7 +31,7 @@ Version `r format(Sys.time(), '%d.%m.%y')`
 </p>
 <br/>
 
-Este trabajo englobra la creación de un modelo de detección de noticias falsas. Desde el propio análisis de los datos hasta la elección y desarrollo de un modelo final. Además, se incluye un desarrollo de un topic modelling adicional. 
+Este trabajo engloba la creación de un modelo de detección de noticias falsas. Desde el propio análisis de los datos hasta la elección y desarrollo de un modelo final. Además, se incluye un desarrollo de un topic modelling adicional. 
 
 <br/>
 
